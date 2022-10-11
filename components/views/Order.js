@@ -1,6 +1,6 @@
 import html from "html-literal";
 
-export default (state) => html`
+export default state => html`
   <section id="order">
     <form id="order" method="POST" action="">
       <h2>Order a pizza</h2>
@@ -76,6 +76,22 @@ export default (state) => html`
           value="red pepper"
         />
         <label for="top5">red pepper</label>
+        <input
+          type="checkbox"
+          id="id_of_checkbox6"
+          class="items1"
+          name="toppings"
+          value="pepperoni"
+        />
+        <label for="top6">pepperoni</label>
+        <input
+          type="checkbox"
+          id="id_of_checkbox7"
+          class="items1"
+          name="toppings"
+          value="sausage"
+        />
+        <label for="top7">sausage</label>
       </div>
       <input
         type="hidden"
